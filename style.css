@@ -1,136 +1,51 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 40px;
+    line-height: 1.6;
 }
 
-.container {
-  width: 794px;
-  min-height: 1123px;
-  margin: auto;
-  background: white;
-  padding: 10mm;
-  border: 1px solid black;
+.resume {
+    max-width: 800px;
+    margin: auto;
 }
 
-/* Header */
-
-header {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
 }
 
-.head-h2,
-.head-h3,
-.head-p {
-  text-align: center;
-}
-.head-p a,.pro2-p a,.pro1-p a,.pro3-p a {
-  text-decoration: none;
-  color: black;
-}
-.head-p:hover a,
-.pro1-p:hover a,
-.pro2-p:hover a,
-.pro3-p:hover a{
-  text-decoration: underline;
-  color: blue;
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
-/* About / career objective */
-
-.about {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+.contact p {
+    margin: 2px 0;
 }
 
-.about-p {
-  text-align: start;
+h2 {
+    margin-top: 25px;
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
 }
 
-/* Skills */
-.skills{
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+h3 {
+    font-size: 15px;
+    margin-top: 15px;
 }
 
-.skills-h3{
-    margin-top: 10px;
+ul {
+    margin: 5px 0 10px 20px;
 }
 
-.skill{
-    margin-left: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+.project {
+    margin-bottom: 10px;
 }
 
-/* Projects */
-
-.project{
-  display: flex;
-  flex-direction: column;
-  margin-top:10px ;
-  gap: 1rem;
-
-}
-
-.projects{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-left: 15px;
-}
-
-.pro1-h4 em,.pro2-h4 em,.pro3-h4 em{
-  color: rgb(65, 64, 64);
-  margin-left: 15px;
-}
-.pro1-p,.pro2-p,.pro3-p{
-  margin-left: 15px;
-}
-
-/* Education */
-
-.education{
-  display: flex;
-  flex-direction: column;
-  margin-top:10px ;
-  gap: 1rem;
-
-}
-
-.studys{
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-  margin-left: 15px;
-}
-.studys-h4 span{
-  font-size: 13.5px;
-}
-
-/* Certification */
-
-.certification{
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  gap: .5rem;
-}
-.certificate{
-  margin-left:15px ;
-  display: flex;
-  flex-direction: column;
-  gap: .2rem;
-}
-
-.language{
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: .2rem;
+hr {
+    margin: 20px 0;
 }
