@@ -64,3 +64,10 @@ p {
         padding: 20px;
     }
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: blue;
+}
